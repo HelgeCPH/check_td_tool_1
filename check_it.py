@@ -4,15 +4,14 @@
 # This code violates the first maintainability check `argument-count`
 
 
-def print_it(a, b, c, d, e, f, g):
-    # Code Climate supports Python 2 only atm.
-    print(a, b, c, d, e, f, g)
+def print_it(a, b, c, d):
+    print(a, b, c, d)
 
 
 def main():
     msg = "Hej Code Climate, please check this code."
     a, b, c, d, e, f, g = msg.split()
-    print_it(a, b, c, d, e, f, g)
+    print_it(a, b, c, d)
 
 
 if __name__ == '__main__':
