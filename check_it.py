@@ -4,14 +4,14 @@
 # This code violates the first maintainability check `argument-count`
 
 
-def print_it(a, b, c, d):
-    print(a, b, c, d)
+def print_it(a, b, c, d, e, f, g):
+    print(a, b, c, d, e, f, g)
 
 
 def main():
     msg = "Hej Code Climate, please check this code."
     a, b, c, d, e, f, g = msg.split()
-    print_it(a, b, c, d)
+    print_it(a, b, c, d, e, f, g)
 
 
 if __name__ == '__main__':
